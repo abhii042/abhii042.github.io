@@ -292,50 +292,7 @@ ul p{
     text-align: center;
     margin-top: 5px;
 }   
-@media (max-width: 1024px) {
-    .nav-search input {
-        width: 450px;
-    }
-    .nav-logo { height: 44px; width: 100px; }
-    .search-icon { height: 38px; width: 38px; font-size: 16px; }
-    .panel_items p { margin: 0 12px; font-size: 0.9rem; }
-    .box { width: 32%; height: auto; padding: 16px; }
-    .box img { height: 220px; width: 100%; padding-left: 0; }
-    .container { gap: 16px; padding: 16px; }
-}
 
-@media (max-width: 768px) {
-    .navbar { flex-wrap: wrap; align-items: center; padding: 6px 12px; }
-    .nav-logo { width: 90px; height: 40px; margin-right: 8px; }
-    .nav-search { flex: 1 1 100%; margin: 8px 0; display: flex; }
-    .nav-search select { display: none; }
-    .nav-search input { width: 100%; height: 36px; font-size: 14px; }
-    .search-icon { height: 36px; width: 36px; font-size: 15px; }
-    .nav-signin, .nav-cart { margin-left: 8px; }
-    .panel_items p { display: inline-block; margin: 0 8px; font-size: 0.85rem; }
-    .hero { height: 200px; background-position: center; }
-    .container { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); padding: 12px; }
-    .box { width: 48%; margin-top: 12px; }
-    .box img { height: 160px; }
-    .foot_pan2 { flex-wrap: wrap; height: auto; padding: 20px 10px; }
-}
-
-@media (max-width: 480px) {
-    .navbar { padding: 6px 8px; }
-    .nav-logo { width: 80px; height: 36px; }
-    .nav-search { order: 3; width: 100%; margin: 8px 0; }
-    .nav-search select { display: none; }
-    .nav-search input { width: calc(100% - 44px); height: 34px; font-size: 14px; }
-    .search-icon { width: 40px; height: 34px; }
-    .signin_1, .signin_2, .add_1, .add_2, .returns_1, .returns_2 { font-size: 0.8rem; }
-    .panel_items p { display: block; margin: 6px 0; font-size: 0.85rem; }
-    .container { grid-template-columns: 1fr; padding: 10px; }
-    .card { margin: 0; }
-    .box { width: 100%; padding: 12px; height: auto; margin-top: 10px; }
-    .box img { height: 140px; width: 100%; padding-left: 0; }
-    .hero { height: 140px; background-position: center; }
-    .foot_pan1, .foot_pan3, .foot_pan4 { font-size: 0.72rem; text-align: center; padding: 10px; }
-}
 
 
 
