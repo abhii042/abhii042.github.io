@@ -274,9 +274,10 @@ ul a {
     }
 
     .nav-search {
-        order: 3;
         width: 100%;
         margin: 8px 0 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     .nav-cart {
@@ -288,7 +289,7 @@ ul a {
     }
 
     .hero {
-        height: 140px;
+        height: 150px;
     }
 
     .container {
@@ -308,6 +309,7 @@ ul a {
     .container_2 {
         flex-direction: column;
         align-items: center;
+
     }
 
     .box {
